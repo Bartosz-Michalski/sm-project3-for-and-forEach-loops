@@ -1,0 +1,12 @@
+button {
+  display: block;
+  width: 150px;
+  height: 80px;
+  margin: 0 auto;
+  font-size: 22px;
+}
+
+li {
+  display: none;
+  list-style-type: none;
+}
