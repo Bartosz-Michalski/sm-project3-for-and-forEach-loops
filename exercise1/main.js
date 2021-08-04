@@ -22,13 +22,13 @@ let size = 10;
 
 btn.addEventListener("click", () => {
   if (firstLi.style.display == "") {
-    for (i = 0; i < 10; i++) {
+    for (let i = 0; i < 10; i++) {
       allLi[i].style.display = "block";
       allLi[i].style.fontSize = size + "px";
     }
   } else {
     size++;
-    for (i = 0; i < 10; i++) {
+    for (let i = 0; i < 10; i++) {
       allLi[i].style.fontSize = size + "px";
     }
   }
