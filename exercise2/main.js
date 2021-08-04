@@ -14,7 +14,6 @@ const init = () => {
 
 const createLiElements = () => {
   const ul = document.querySelector("ul");
-  const li = document.createElement("li");
 
   for (i = 0; i < 10; i++) {
     ul.innerHTML += `<li style="font-size:${size++}px"> Element nr ${orderElement++}</li>`;
